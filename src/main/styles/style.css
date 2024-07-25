@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary: #3382FF;
+    --primary-90: rgba(51, 130, 255, .9);
+    --secondary: #d9cd43;
+    --secondary-90: rgba(217, 205, 67, .9);
+    --accent: #F44336;
+    --accent-90: rgba(244, 67, 54, .9);
+
+    --black: #050D19;
+    --black-25: rgba(5, 13, 25, .25);
+    --black-90: rgba(5, 13, 25, .9);
+
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('../img/beesmasalt.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.074rem;
+}
+
+h4 {
+    font-size: 1.728rem;
+}
+
+h5 {
+    font-size: 1.44rem;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+small {
+    font-size: 0.833rem;
+}
+
+img {
+    max-width: 100%;
+}
